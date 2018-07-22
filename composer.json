@@ -1,0 +1,37 @@
+{
+    "name": "sidagshri/omni-directpay",
+    "type": "library",
+    "description": "Direct Pay driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "directpay"
+    ],
+    "homepage": "https://github.com/sidagshri/omnipay-directpay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shridhar Agarwal",
+            "email": "sid.ag.shri@gmail.com",
+            "homepage": "https://github.com/sidagshri/omnipay-directpay"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omni-directpay\\" : "src/" },
+        "classmap": ["src/Gateway.php"]
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
